@@ -1,0 +1,23 @@
+name: cricket_scorer_app
+description: A simple cricket scorer app built with Flutter.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_sign_in: ^6.1.5   # For Google login
+  get: ^4.6.6               # ✅ Added GetX
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
